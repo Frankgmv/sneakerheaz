@@ -1,0 +1,8 @@
+:root{
+    --font-title: 'Roboto';
+    --font-paragraph: Georgia;
+    --font-color-light:#ffff;
+    --bg-dark: #000;
+    --font-color-hover:#fffa;
+    --url-fondo-nike:url('../images/fondo-nike.jpg');
+}

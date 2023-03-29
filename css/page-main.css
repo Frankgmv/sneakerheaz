@@ -1,0 +1,115 @@
+.main {
+    margin: 0 auto;
+    /* padding-top: 100px; */
+    /* position: sticky; */
+    /* bottom: 200px; */
+    max-width: 90%;
+}
+
+.space-empty {
+    background-image: url('../images/fondo-div.png');
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+    backdrop-filter: blur(-10px);
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 24vw;
+}
+
+/* .JustDoIt {} */
+
+.container-justify-business {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.justify-business-blockText,
+.justify-business-img {
+    width: 50%;
+    height: 300px;
+}
+
+.justify-business-blockText {
+    color: white;
+}
+
+.justify-business-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+    height: 80%;
+    width: 60%;
+}
+
+.box {
+    display: inline-block;
+    height: 50%;
+    color: white;
+}
+
+.content-title {
+    text-transform: capitalize;
+    font-size: 3em;
+    margin: 18px 0px;
+}
+
+.content-paragraph {
+    text-align: justify;
+    font-size: 1.8em;
+}
+
+/* Bloque de calidades */
+
+.article-calidades {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    margin-top: 40px;
+}
+
+.box-container {
+    display: inline-block;
+    width: 50%;
+    /* height: 100%; */
+    color: white;
+    text-align: start;
+}
+
+.box-container:first-child {
+    text-align: right;
+}
+
+.box-container:last-child {
+    text-align: left;
+    padding: 20px;
+}
+
+.box-img {
+    width: 70%;
+}
+
+.box-img:hover {
+    transform: scale(1.010);
+    transform: all 5s;
+}
+
+.title-article {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+
+.content-article {
+    font-size: 1.4em;
+    line-height: 1.4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

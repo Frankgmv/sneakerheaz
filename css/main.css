@@ -1,0 +1,5 @@
+@import "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Roboto+Mono:ital,wght@0,100;0,200;0,700;1,100&display=swap";
+@import "./header.css";
+@import "./fomater.css"; 
+@import "./variables.css";
+@import "page-main.css";
