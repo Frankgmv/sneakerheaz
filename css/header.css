@@ -18,7 +18,11 @@
 }
 
 .logo-page {
-    height: 50%;
+    height: auto;
+    width: auto;
+    max-height: 60px;
+    max-width: 90px;
+
     margin-right: 10px;
 }
 

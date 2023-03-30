@@ -14,12 +14,15 @@ section.gorras, section.zapatos {
 
 .container-vista {
     display: inline-block;
-    width: 100%;
+    width: auto;
     padding: 20px;
 }
 
-.container-img img{
-    height: 100px;
+.container-vista img{
+    height:auto;
+    width: auto;
+    max-height:200px;
+    max-width: 200px;
 }
 
 .content-info {
@@ -36,6 +39,7 @@ section.gorras, section.zapatos {
 p.price {
     font-family: var(--font-intro);
     font-size: 1.4em;
+    text-transform: capitalize;
 }
 
 
