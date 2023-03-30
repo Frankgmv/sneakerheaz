@@ -1,5 +1,8 @@
-@import "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Roboto+Mono:ital,wght@0,100;0,200;0,700;1,100&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@300&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 @import "./header.css";
+@import "./footer.css";
 @import "./fomater.css"; 
 @import "./variables.css";
 @import "page-main.css";
+@import "page-gorras.css";

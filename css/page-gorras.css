@@ -1,0 +1,48 @@
+section.gorras, section.zapatos {
+    margin: 30px auto;
+}
+
+.row {
+    margin: 0 auto;
+    display: flex;
+}
+
+.columna {
+    width: 50%;
+    padding: 20px;
+}
+
+.container-vista {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+.container-img img{
+    height: 100px;
+}
+
+.content-info {
+    width: 90%;
+    color: var(--font-color-light);
+    text-align: center;
+}
+
+.title-product {
+    font-family: var(--font-title);
+    font-size: 2em;
+}
+
+p.price {
+    font-family: var(--font-intro);
+    font-size: 1.4em;
+}
+
+
+p.price:hover{
+    color: var(--font-orange-hover);
+    position: relative;
+    transition: transform 2s, color 1s;
+    transform: scale(1.8);
+    top: 7px;
+}

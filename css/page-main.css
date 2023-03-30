@@ -1,44 +1,57 @@
 .main {
     margin: 0 auto;
-    /* padding-top: 100px; */
-    /* position: sticky; */
-    /* bottom: 200px; */
     max-width: 90%;
 }
 
 .space-empty {
-    background-image: url('../images/fondo-div.png');
-    background-repeat: repeat-y;
-    background-position: center top;
-    background-attachment: scroll;
-    background-size: cover;
+    background-image: var(--url-fondo-Jordan);
+    background-position:top;
+    background-repeat: no-repeat;
     backdrop-filter: blur(-10px);
+    background-size: 100%;
     opacity: .9;
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 24vw;
+    height: 25vw;
 }
 
-/* .JustDoIt {} */
+.fondo-1{
+    background-image: var(--url-fondo-1);
+}
+
+.fondo-2{
+    background-image: var(--url-fondo-2);
+}
+
+.JustDoIt {
+    object-fit: scale-down;
+}
+.JustDoIt:hover{
+    background-color: var(--font-blue-hover2);
+}
 
 .container-justify-business {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
+    margin-top: 50px;
+    max-height: 200px;
 }
 
 .justify-business-blockText,
 .justify-business-img {
     width: 50%;
-    height: 300px;
+    font-family: var(--font-title);
 }
 
 .justify-business-blockText {
-    color: white;
+    color: var(--color-light);
+
 }
 
 .justify-business-img {
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,56 +63,80 @@
     width: 60%;
 }
 
+.img:hover{
+    box-shadow: 2px 2px 5px 4px var(--font-blue-hover);
+}
+
 .box {
+    padding: 10px;
     display: inline-block;
-    height: 50%;
     color: white;
+}
+
+.box:hover{
+    border-radius: 7px;
+    background-color: var(--bg-dark);
 }
 
 .content-title {
     text-transform: capitalize;
-    font-size: 3em;
-    margin: 18px 0px;
+    font-size: 1.5em;
+    margin: 10px 0px;
 }
 
 .content-paragraph {
     text-align: justify;
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 
 /* Bloque de calidades */
 
-.article-calidades {
+.calidades{
+    margin-top: 50px;
+    color: white;
+}
+
+.calidades-title{
+    text-transform: uppercase;
     display: flex;
     justify-content: center;
-    height: 150px;
+    font-size: 3em;
+}
+
+.article-calidades {
+    /* margin: 30px 0px; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
     margin-top: 40px;
 }
 
 .box-container {
     display: inline-block;
-    width: 50%;
-    /* height: 100%; */
-    color: white;
-    text-align: start;
-}
-
-.box-container:first-child {
+    color: var(--color-light);
     text-align: right;
 }
 
+.box-container:first-child {
+    width: 60%;
+    text-align: center;
+}
+
 .box-container:last-child {
+    width: 40%;
     text-align: left;
     padding: 20px;
 }
 
 .box-img {
-    width: 70%;
+    max-width: 70%;
+    height: auto;
 }
 
 .box-img:hover {
     transform: scale(1.010);
-    transform: all 5s;
 }
 
 .title-article {

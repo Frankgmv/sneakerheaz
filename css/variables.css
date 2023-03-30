@@ -1,8 +1,22 @@
 :root{
-    --font-title: 'Roboto';
-    --font-paragraph: Georgia;
-    --font-color-light:#ffff;
-    --bg-dark: #000;
+    --font-title: 'Poppins';
+    --font-intro: 'Alkatra';
+
     --font-color-hover:#fffa;
+    --font-orange-hover:#eb620e;
+    --font-blue-hover:#15d3d6c1;
+    --font-blue-hover2:hsla(181, 82%, 46%, 0.1);
+    --font-paragraph: sans-serif;
+    --font-color-light:#ffff;
+    --color-light:#ffff;
+
+
+    --bg-dark: #000;
+    --bg-gray1: #0a0909;
+
     --url-fondo-nike:url('../images/fondo-nike.jpg');
+    --url-fondo-Jordan:url('../images/jorgan.png');
+    --url-fondo-1:url('../images/jordan-2.png');
+    --url-fondo-2:url('../images/jordan-3.png');
+    --url-fond-runners:url('../images/fondo-div.png');
 }
