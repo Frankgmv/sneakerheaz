@@ -11,6 +11,7 @@ html {
 
 body {
     background-image: var(--url-fondo-nike);
+    /* background-image: var(--url-fondo-Joe); */
     background-size: 100vw 100vh;
     backdrop-filter: blur(2px);
     background-attachment: fixed;

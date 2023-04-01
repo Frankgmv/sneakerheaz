@@ -45,8 +45,6 @@ p.price {
 
 p.price:hover{
     color: var(--font-orange-hover);
-    position: relative;
-    transition: transform 2s, color 1s;
-    transform: scale(1.8);
-    top: 7px;
+    transition: all .5s;
+    background: var(--font-color-light);
 }
